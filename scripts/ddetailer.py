@@ -153,7 +153,7 @@ class DetectionDetailerScript(scripts.Script):
                 dd_model_b,
                 dd_conf_b, dd_dilation_factor_b,
                 dd_offset_x_b, dd_offset_y_b,  
-                dd_mask_blur, dd_denoising_strength,
+                dd_mask_blur,
                 dd_inpaint_full_res, dd_inpaint_full_res_padding
         ]
 
@@ -166,7 +166,7 @@ class DetectionDetailerScript(scripts.Script):
                      dd_model_b,
                      dd_conf_b, dd_dilation_factor_b,
                      dd_offset_x_b, dd_offset_y_b,  
-                     dd_mask_blur, dd_denoising_strength,
+                     dd_mask_blur,
                      dd_inpaint_full_res, dd_inpaint_full_res_padding):
 
         processing.fix_seed(p)
